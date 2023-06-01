@@ -1,0 +1,46 @@
+.contact {
+  padding: 15rem 0px;
+}
+
+.contact-message-p {
+  padding-bottom: 2rem;
+}
+
+.head {
+  padding-bottom: 1rem;
+}
+
+.contact-btn {
+  margin-top: 1rem;
+  background: #800020;
+  color: white;
+}
+
+.contact-btn:hover{
+  color: white;
+  background: #960126;
+}
+
+.form-control:focus{
+  border-color: #eb456ebd;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #eb456ebd;
+}
+
+@media (min-width: 992px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 8rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-message {
+    transform: translateY(-2.5rem);
+  }
+}
+
+

@@ -1,0 +1,22 @@
+.card-container {
+  margin: 4rem auto;
+}
+
+div.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+
+div.price-paragraph{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.price-paragraph p{
+    margin-bottom: 0;
+}
+
+.price{
+    margin-left: 10px;
+}

@@ -1,0 +1,42 @@
+.about {
+  display: grid;
+  gap: 4rem;
+}
+
+.about-title {
+  text-align: left;
+  color: #212529;
+}
+
+.about img {
+  width: 100%;
+  display: block;
+  border-radius: 0.25rem;
+  height: 500px;
+  object-fit: cover;
+}
+
+.about p {
+  line-height: 2;
+  max-width: 45em;
+  margin: 2rem auto 0px;
+  color: #212529;
+}
+
+.page {
+  min-height: calc(80vh - 10rem);
+}
+
+.about-underline {
+  margin-left: 0;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+@media (min-width: 992px) {
+  .about {
+    grid-template-columns: 1fr 1fr;
+  }
+}

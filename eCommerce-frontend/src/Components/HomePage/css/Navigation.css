@@ -1,0 +1,11 @@
+nav {
+    height: 5rem;
+    background: #800020;
+}
+
+ul li a.nav-link, div a.navbar-brand{
+    color: white;
+}
+
+
+

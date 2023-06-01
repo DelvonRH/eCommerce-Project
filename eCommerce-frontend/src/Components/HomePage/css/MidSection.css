@@ -1,0 +1,38 @@
+section.middle {
+  padding: 5rem 0;
+}
+
+h2.title {
+  margin-bottom: 12px;
+}
+
+.underline {
+  border-bottom: 4px solid #800020;
+  height: 0.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6rem;
+}
+
+.view-all {
+  width: 148px;
+  color: white;
+  background: #800020;
+}
+
+.view-all:hover {
+  color: white;
+  background: #960126;
+}
+
+/* .title .underline {
+    background: #49a6e9;
+    background: #ab7a5f;
+    background: var(--clr-primary-5);
+    height: 0.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6rem
+rem
+;
+} */

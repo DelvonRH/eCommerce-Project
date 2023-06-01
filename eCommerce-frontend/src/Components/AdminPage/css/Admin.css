@@ -1,0 +1,40 @@
+.admin-page {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.admin-content h1 {
+  margin-bottom: 20px;
+}
+
+.admin-content p {
+  line-height: 1.5;
+}
