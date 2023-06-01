@@ -8,11 +8,21 @@ Time spent: **10** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] User can navigate to diffeernt pages.
+- [x] User can navigate to About Page.
+- [x] User can navigate to Products Page.
+- [x] User can navigate to Home Page.
+- [x] User can navigate to Login Page.
+- [x] User can navigate to Sign Up Page.  
 
 The following **optional** features are implemented:
 
 - [x] User can fill out contact form and create an email.
+- [x] User can click on brand to navigate to Home Page.
+- [x] User can click on "Shop Now!" button to navigate to Products Page.
+- [x] User can click on "See Products" button to navigate to Products Page.
+- [x] Website is responsive and can be viewed on different devices.
+- [x] User can navigate to Sign Up Page via "Sign Up" link on Login Page.
+- [x] User can navigate to Login Page via "Login" link on Sign Up Page.  
 
 ## Video Walkthrough
 
@@ -28,8 +38,8 @@ Describe any challenges encountered while building the app.
 
 ## Open-source libraries used
 
-- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
-- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
+- 
+- 
 
 ## License
 
