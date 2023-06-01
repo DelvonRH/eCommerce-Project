@@ -2,7 +2,7 @@
  
 **Sweet Treats** is a ecommerce web application that provides products for customers.
 
-Time spent: **10** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
@@ -29,7 +29,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/DelvonRH/SimpleInsta/blob/master/SimpleInstaWalkthrough%232.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
