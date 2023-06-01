@@ -1,4 +1,4 @@
-﻿# eCommerce-Project Part I
+﻿# Sweet Treats Part I
  
 **Sweet Treats** is a ecommerce web application that provides products for customers.
 
@@ -22,7 +22,8 @@ The following **optional** features are implemented:
 - [x] User can click on "See Products" button to navigate to Products Page.
 - [x] Website is responsive and can be viewed on different devices.
 - [x] User can navigate to Sign Up Page via "Sign Up" link on Login Page.
-- [x] User can navigate to Login Page via "Login" link on Sign Up Page.  
+- [x] User can navigate to Login Page via "Login" link on Sign Up Page.
+- [x] User can click on the word "Home" to return to the Home Page.
 
 ## Video Walkthrough
 
