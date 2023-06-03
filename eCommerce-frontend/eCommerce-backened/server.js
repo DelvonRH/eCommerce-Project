@@ -5,8 +5,11 @@ const dbConnection = require("./config/dbConnect");
 const PORT = process.env.PORT;
 const { notFound, errorHandler } = require("./middlewares/errorHandler");
 const bodyParser = require("body-parser");
+const cookieParser = require("cookie-parser");
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(cookieParser());
 
 // Importing router from each route file and then using require to store them in a variable.
 // Ex. userRoute = router from ./routes/User or User.js

@@ -29,6 +29,9 @@ const userSchema = new mongoose.Schema(
       default: [],
     },
     address: [{ type: mongoose.Schema.Types.ObjectId, ref: "Address" }],
+    refreshToken: {
+      type: String,
+    },
   },
   {
     timestamps: true,

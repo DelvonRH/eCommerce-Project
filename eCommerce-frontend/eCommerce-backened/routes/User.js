@@ -8,6 +8,8 @@ const {
   updateUser,
   blockUser,
   unblockUser,
+  handleRefreshToken,
+  logout,
 } = require("../controller/UserController");
 const { jwtAuth, isAdmin } = require("../middlewares/jwtauth");
 // Note if you need to take an id make sure that those are under routes that do not require the id.
@@ -18,6 +20,11 @@ router.post("/signup", createUser);
 router.post("/login", loginUser);
 
 router.get("/all-users", getUsers);
+
+// handles refresh token
+router.get("/refresh", handleRefreshToken);
+
+router.get("/logout", logout)
 
 // This allows for the id to be passed in the route
 // Ex. localhost:4000/api/user/{id} will give you a user
@@ -33,6 +40,8 @@ router.put("/edit-user", jwtAuth, updateUser);
 router.put("/block-user/:id", jwtAuth, isAdmin, blockUser);
 
 router.put("/unblock-user/:id", jwtAuth, isAdmin, unblockUser);
+
+
 
 
 // Export router so that you have access to each route.
