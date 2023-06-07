@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
+
 // Creating a user model in order to post what we want into our database
 const userSchema = new mongoose.Schema(
   {
@@ -50,4 +51,4 @@ userSchema.methods.isPasswordMatched = async function (enteredPassword) {
 };
 
 // Exporting UserTemplate as a model for our database.
-module.exports = mongoose.model("user", userSchema);
+module.exports = mongoose.model("User", userSchema);
