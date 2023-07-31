@@ -26,6 +26,7 @@ const jwtAuth = asyncHandler(async (req, res, next) => {
 
 const isAdmin = asyncHandler(async (req, res, next) => {
     const {email} = req.user
+    
     const admin = await User.findOne({email: email})
     if(admin.role !== "admin"){
         throw new Error("You do not have the correct administrator privileges");

@@ -6,13 +6,14 @@ const {
   updateProduct,
   deleteProduct,
 } = require("../controller/ProductController");
+const { isAdmin, jwtAuth } = require("../middlewares/jwtauth.js");
 const router = express.Router();
 
-router.post("/", createProduct);
-router.get("/", getProducts)
+router.post("/", jwtAuth, isAdmin, createProduct);
+router.get("/", getProducts);
 router.get("/:id", getProduct);
-router.put("/:id", updateProduct);
-router.delete("/:id", deleteProduct); j
+router.put("/:id", jwtAuth, isAdmin, updateProduct);
+router.delete("/:id", jwtAuth, isAdmin, deleteProduct);
 
 // Export router so that you have access to each route.
 module.exports = router;
